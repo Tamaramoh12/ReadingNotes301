@@ -9,12 +9,26 @@ jQuery offers a simple way to achieve a variety of commonJavaScript tasks quickl
 
 - Handle Events
 
-**What is JQuert?**
+**What is JQuery?**
 
+![](Capture3.PNG)
 
+![](Capture4.PNG)
 
+Example:
 
+![](Capture5.PNG)
 
+![](Capture6.PNG)
 
+![](Capture7.PNG)
 
+**Why use JQuert?**
 
+jQuery doesn't do anything you cannot achieve with pure JavaScript. It is just a JavaScript file but estimates show it has been used on over a quarter of the sites on the web, because it makes coding simpler. 
+
+1- Simple Selectors.
+
+2- Common Tasks in Less Code.
+
+3- Cross-Browser Compatiblity.
