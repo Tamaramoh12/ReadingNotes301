@@ -16,7 +16,6 @@ SuperAgent is light-weight progressive ajax API crafted for flexibility, readabi
 A request can be initiated by invoking the appropriate method on the request object, then calling .then() (or .end() or await) to send the request.
 
 Ex:
-
 ```
  request
    .get('/search')
@@ -27,6 +26,21 @@ Ex:
       // err.message, err.response
    });
 ```
+
+HTTP method may also be passed as a string:
+```
+request('GET', '/search').then(success, failure);
+```
+
+Old-style callbacks are also supported, but not recommended. Instead of .then() you can call .end():
+```
+request('GET', '/search').end(function(err, res){
+  if (res.ok) {}
+});
+```
+
+for more tests you can use this link: 
+[Test Documentation](https://visionmedia.github.io/superagent/docs/test.html)
 
 # A Simple Example To Explain Rest
 
