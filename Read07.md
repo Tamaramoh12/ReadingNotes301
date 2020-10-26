@@ -1,3 +1,35 @@
+# Super Agent 
+SuperAgent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
+
+```
+ request
+   .post('/api/pet')
+   .send({ name: 'Manny', species: 'cat' })
+   .set('X-API-Key', 'foobar')
+   .set('Accept', 'application/json')
+   .then(res => {
+      alert('yay got ' + JSON.stringify(res.body));
+   });
+```
+
+### Resquest Basics
+A request can be initiated by invoking the appropriate method on the request object, then calling .then() (or .end() or await) to send the request.
+
+Ex:
+
+```
+ request
+   .get('/search')
+   .then(res => {
+      // res.body, res.headers, res.status
+   })
+   .catch(err => {
+      // err.message, err.response
+   });
+```
+
+# A Simple Example To Explain Rest
+
 Brother: Hey, I have a question for you… Who is “Roy Fielding”?
 
 ME: Some guy. He's smart.
