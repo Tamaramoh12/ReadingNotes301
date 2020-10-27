@@ -18,3 +18,23 @@ By learning SQL, the goal is to learn how to answer specific questions about thi
 
 # SQL Commands
 
+![](Capture12.PNG)
+![](Capture13.PNG)
+![](Capture14.PNG)
+![](Capture15.PNG)
+![](select.PNG)
+![](select2.PNG)
+![](Capture16.PNG)
+![](Capture17.PNG)
+![](Capture18.PNG)
+![](Capture19.PNG)
+![](Capture20.PNG)
+
+
+
+
+
+
+
+
+
