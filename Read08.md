@@ -10,4 +10,11 @@ Before learning the SQL syntax, it's important to have a model for what a relati
 
 For example, if the Department of Motor Vehicles had a database, you might find a table containing all the known vehicles that people in the state are driving. This table might need to store the model name, type, number of wheels, and number of doors of each vehicle for example.
 
-[](Capture11.PNG)
+![](Capture11.PNG)
+
+In such a database, you might find additional related tables containing information such as a list of all registered drivers in the state, the types of driving licenses that can be granted, or even driving violations for each driver.
+
+By learning SQL, the goal is to learn how to answer specific questions about this data, like "What types of vehicles are on the road have less than four wheels?", or "How many models of cars does Tesla produce?", to help us make better decisions down the road.
+
+# SQL Commands
+
