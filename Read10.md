@@ -22,5 +22,9 @@ greeting();
 ```
 
 it will call the greeting function t first then the sayHi function and return "Hi !"
-\*********************************************************************************************************************************************************************************\*
+
+
+The JavaScript engine (which is found in a hosting environment like the browser), is a single-threaded interpreter comprising of a heap and a single call stack. The browser provides web APIs like the DOM, AJAX, and Timers.
+
+
 
