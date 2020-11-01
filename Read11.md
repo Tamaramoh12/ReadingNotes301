@@ -27,3 +27,28 @@ app.listen(3000,function(){
 }
 ```
 - make a new file called: views/index.ejs and right your html code inside it.
+
+
+### How To Inject Value Into Our EJS:
+- inside server.js file:
+```
+app.get('/',function(request,response){
+  response.render('index',{
+    foo: 'bar'
+  });
+});
+```
+- inside index.ejs file:
+```
+<h1>hello<%= foo %></h1>
+```
+
+### For Loops & Arrays
+- inside server.js file:
+```
+app.get('/',function(request,response){
+  response.render('index',{
+    foo: 'bar'
+  });
+});
+```
