@@ -25,7 +25,9 @@ To understand the difference between those two methods, let's step back and exam
 **The GET method** is the method used by the browser to ask the server to send back a given resource: "Hey server, I want to get this resource." In this case, the browser sends an empty body. Because the body is empty, if a form is sent using this method the data sent to the server is appended to the URL.
 
 Ex:
+
 ![](Capture22.PNG)
+
 ![](Capture23.PNG)
 
 The data is appended to the URL as a series of name/value pairs. After the URL web address has ended, we include a question mark (?) followed by the name/value pairs, each one separated by an ampersand (&)
